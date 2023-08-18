@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condiciones - Diego Rojas</title>
+    <!-- link para estilo css -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+</head>
+<body>
+    <section>
+        <img id="imagen" src="assets/img/godzillaflame_snapback.jpg" alt="gorro negro con letras rojas" onclick="toggleBorde(this)">
+    </section>
+
+    <section>
+
+        <h2>Elige tus stickers</h2>
+
+<div>
+    <img src="assets/img/rodamientos-iron.jpg" alt="caja de rodamientos iron negra con amarillo">
+    <input type="number" id="sticker1Input" placeholder="Cantidad">
+</div>
+
+<div>
+    <img src="assets/img/ruedas-ricta.jpg" alt="rueda de skate blanca marca ricta">
+    <input type="number" id="sticker2Input" placeholder="Cantidad">
+</div>
+
+<div>
+    <img src="assets/img/tabla-skate-toy-machine.jpg" alt="tabla de skate color rojo con alien de un ojo">
+    <input type="number" id="sticker3Input" placeholder="Cantidad">
+</div>
+
+<button onclick="calcularStickers()">Calcular</button>
+<p id="resultado"></p>
+    </section>
+
+<section>
+    <select id="select1">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+       
+    </select>
+    
+    <select id="select2">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        
+    </select>
+    
+    <select id="select3">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+    </select>
+    
+    <button onclick="verificarPassword()">Ingresar</button>
+    <p id="resultado2"></p>
+    
+</section>
+
+<!-- link para la hoja de js -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
